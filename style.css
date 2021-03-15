@@ -1,0 +1,535 @@
+/* 	PALETA DE COLORES
+
+#ffffff
+#000000
+#00C3A6
+#007F8D
+#FFC831
+#FFD66C
+#FF3529
+
+*/
+
+html{
+
+	background-image: url(assets/fondo.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	padding: 0%;
+	margin: 0%;;
+	border: none;
+	
+}
+
+body{
+
+	margin:0;
+    padding:0;
+
+}
+
+h1{
+
+	font-family: 'Oswald';
+	font-size: 64px;
+	font-weight: 200;
+	text-align: center;
+
+}
+
+strong{
+
+	color: #FF382E;
+	font-weight: bolder;
+	
+}
+
+a{
+
+	color: currentColor;
+	text-decoration:none;
+	
+}
+
+/*			CABECERA			*/
+
+#cabecera_general{
+
+	background-image: url(assets/fondo_cabecera.png);
+	background-attachment: fixed;
+	background-position: top;
+	background-color: #ffffff;
+	background-size: cover;
+	color: #000000;
+	width:100%;
+	vertical-align: middle;
+	display: inline-block;
+	top: 0%;
+	margin: 0%;
+	padding: 0%;
+	right: 0%;
+
+}
+
+#cabecera_general h1{
+
+	font-size: 74px;
+	text-align: center;
+	margin: 2% 30% 0% 30%;
+	padding: 20px;
+
+}
+
+.rrss{
+
+	background-color: white;
+	float: right;
+	width: 35px;
+	height: 35px;
+	margin: 15px 15px 0px 0px;
+	right: 30%;
+	
+}
+
+.rrss:hover{
+
+	box-shadow: 0px 0px 5px #000000;
+	transition: all 500ms ease; 
+
+}
+
+#logotipo{
+
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 5px;
+	margin: 15px 150px 0px 150px;
+	
+
+}
+
+/*		MENÚ		*/
+
+#menu{
+
+	text-align: center;
+	background-color: #000000;
+	border: 2px #000000 solid; 
+	font-size: 18px;
+	display: inline-flexbox;
+	position: sticky;
+	top: 0%;
+	width: auto;
+	
+}
+
+menu a{
+	
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*		ELEMENTOS DEL MENÚ		*/
+
+#menu li{
+
+	display: inline-block;
+	width: auto;
+	padding: 15px 25px 15px 25px;
+	background-color: #000000;
+	border: 2px solid transparent;
+	border-collapse: collapse;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Raleway';
+	font-weight: 300;
+	position: relative;
+	
+}
+
+#menu li:hover{
+
+	background-color: #FF382E;
+	color: #ffffff;
+	padding: 15px 25px 15px 25px;
+	transition: all 500ms ease;
+	border: 2px solid transparent;
+	
+}
+
+#menu li>ul{
+
+	display:none;
+	text-align: center;
+	float: left;
+	
+}
+
+#menu li:hover>ul{
+	
+	display:block;
+	position:absolute;
+	top: 52px;
+	right: -5px;
+	width: auto;
+	background-color: #000000;
+	padding-left: 0%;
+	padding: 5px;
+
+}
+
+#menu input{
+
+	border: 2px solid #000000;
+	border-bottom: #ffffff 2px solid;
+	background-color: #000000;
+	color: #ffffff;
+	margin-left: 25px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Raleway';
+
+}
+
+#menu input:focus{
+
+	border-bottom: #FF382E 2px solid;
+	outline: none;
+	transition: all 500ms ease; 
+
+}
+
+#menu button{
+
+	background-color: transparent;
+	border: none;
+
+}
+
+#menu img{
+
+	width: 20px;
+	height: 20px;
+
+}
+/*		BOTÓN DE SUBIR		*/
+
+#sube{
+
+	position: fixed;
+	right: 2%;
+	bottom: 2%;
+	background-color: #ffffff;
+
+}
+
+/*		LA CHICHA		*/
+
+section{
+
+	background-color: #ffffff;
+	margin: 0% 15% 0% 15%;
+	padding: 2%;
+	line-height: 250%;
+
+}
+
+
+/*		PIE DE PÁGINA		*/
+
+footer{
+
+	background-color: #000000;
+	border: #000000 2px solid;
+	color:#ffffff;
+	width:auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: lighter;
+	text-align: center;
+	font-family: 'Oswald';
+	font-size: 16px;
+	
+}
+
+footer img{
+
+	position: absolute;
+	left: 25px;
+	padding-top: 15px;
+	
+}
+
+/*		TUTORIALES		*/
+
+#contenido_tutoriales{
+
+	text-align: center	;
+	
+}
+
+#contenido_tutoriales ul{
+
+	text-align: center;
+	padding: 5%;
+
+}
+
+#contenido_tutoriales h2{
+
+	font-family: 'Oswald';
+	font-size: 48px;
+	font-weight: 200;
+
+}
+
+#contenido_tutoriales li{
+	
+	font-size: 18px;
+	font-family: 'Raleway';
+	display: inline-block;
+	text-align: center;
+	padding: 25px;
+	width: 80%;
+	line-height: 250%;
+	
+	
+}
+
+#contenido_tutoriales li:hover{
+
+	background-color: #000000;
+	color: #ffffff;
+	transition: all 500ms ease;
+	box-shadow: 0px 0px 5px #000000;
+
+}
+
+#contenido_tutoriales li:active{
+
+	background-color: #FF3529;
+	color: #ffffff;
+	box-shadow: 0px 0px 5px #000000;
+	transition: all 50ms ease; 
+}
+
+.instalaciones{
+	
+	border: #000000 3px solid;
+	margin: 15px;
+
+}
+
+.instalaciones:active{
+	
+	border: #ffffff 3px solid;
+}
+
+#win{
+
+	width: 450px;
+	height: 300px;
+	float: left;
+}
+
+#linux{
+
+	width: 500px;
+	height: 300px;
+	float: right;
+}
+
+#software{
+
+	width: 300px;
+	height: 300px;
+	float: left;
+
+}
+
+/*		CONTACTO		*/
+
+#contacto {
+
+	text-align: center;
+	
+}
+
+#contacto h2{
+
+	font-size: 30px;
+	font-family: 'Oswald';
+	font-weight: 300;
+	text-align: right;
+
+}
+
+#contacto p{
+
+	text-align: center;
+
+}
+
+#contacto input:focus{
+
+	border: #FF382E 2px solid;
+
+}
+
+#contacto img{
+
+	background-color: white;
+	vertical-align: top;
+	width: 35px;
+	height: 35px;
+	margin-left: 15px;
+
+}
+
+#contacto_email{
+
+	background-color: #FF382E;
+	color: #ffffff;
+	font-size: 16px;
+
+}
+
+#contacto li{	
+
+	font-size: 22px;
+	font-family: 'Oswald';
+	vertical-align: baseline;
+	list-style: none;
+	padding: 15px;
+	text-align: right;
+	
+}
+
+#contacto aside{
+	
+	float: right;
+	text-align: center;
+	
+}
+
+#contacto aside li:active{
+
+	box-shadow: 0px 0px 5px #000000;
+
+}
+
+.form_contacto{
+
+	padding: 25px;
+	margin: 15px;
+	border: 2px solid #000000;
+	width: 25%;
+	font-family: 'Oswald';
+	font-size: 16px;
+	text-align: left;
+
+}
+
+.form_contacto:focus{
+
+	border: 2px solid #FF382E;
+	border-radius: 0%;
+	outline: none;
+
+}
+
+.form_contacto:required{
+
+	outline: none;
+	box-shadow: none;
+
+}
+
+#contacto_telf{
+
+	background-color: #FF382E;
+	color: #ffffff;
+
+}
+
+#contacto_ig{
+
+	background-color: #C536A4;
+	color: #ffffff;
+
+}
+
+#contacto_fb{
+
+	background-color: #3A559F;
+	color: #ffffff;
+
+}
+
+#contacto_tw{
+
+	background-color: #50ABF1;
+	color: #ffffff;
+
+}
+
+#contacto textarea{
+
+	resize: none;
+	width: 60%;
+	height: 100px;
+	border: 2px solid #000000;
+	padding: 25px 25px 50px 25px;
+	margin: 15px;
+	font-family: 'Oswald';
+	font-size: 16px;
+	outline: none;
+
+}
+
+#contacto textarea:focus{
+
+	border: 2px solid #FF382E;
+
+}
+
+#contacto textarea:required{
+
+	outline: none;
+	box-shadow: none;
+
+}
+
+#form_contacto_acepto:required{
+
+	border: 2px solid #FF382E;
+	border-radius: 0%;
+	outline: none;
+	box-shadow: none;
+
+}
+
+#envialo{
+
+	padding: 25px;
+	text-align: center;
+	font-family: 'Oswald';
+	font-size: 18px;
+	background-color: #FF382E;
+	border: 2px solid #FF382E;
+	color: #ffffff;
+
+}
+
+#envialo:active{
+
+	box-shadow: 0px 0px 5px #000000;
+
+}

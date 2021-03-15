@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset=UTF-8>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" type="image/png" href="../assets/logo.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<title>Contacto | La Web del Tommy</title>
+
+</head>
+
+<body>
+
+	<!---------- CABECERA ---------->
+
+	<header id="cabecera_general">
+
+		<!--	LOGOTIPO	-->
+
+		<a href="../index.html">
+			<img src="../assets/logo.png" alt="La Web de Tommy" id="logotipo">
+		</a>
+
+		<!--	RRSS	-->
+
+		<a href="https://twitter.com/angustiamental">
+			<img src="../assets/tw.png" class="rrss">
+		</a>
+
+		<a href="https://www.facebook.com/liphesux">
+			<img src="../assets/fb.png" class="rrss">
+		</a>
+
+		<a href="https://www.instagram.com/tommys.muertos">
+			<img src="../assets/ig.png" class="rrss">
+		</a>
+
+		<a href="tel:682211873">
+			<img src="../assets/call.png" class="rrss">
+		</a>
+
+		<a href="mailto:tomassegovia97@gmail.com">
+			<img src="../assets/email.png"class="rrss">
+		</a>
+		
+		<!--	TÍTULO WEB		-->
+
+		<a href="../index.html">
+			<h1>
+				LA WEB DEL TOMMY
+			</h1>
+		</a>
+
+	</header>
+
+	<!--	MENU HORIZONTAL		-->
+
+	<nav id="menu">
+
+		<ul>
+
+			<a href="../index.html">
+				<li>
+					Inicio
+				</li>
+			</a>
+
+			<a href="../tutoriales/tutoriales.html">
+				<li>
+					Tutoriales
+					<br>
+					<ul>
+						<a href="../windows/windows.html">
+							<li>Windows</li>
+						</a>
+						<a href="../linux/linux.html">
+							<li style="width: 75px;">Linux</li>
+						</a>
+						<a href="../software/software.html">
+							<li>Software</li>
+						</a>
+					</ul>
+				</li>
+			</a>
+
+			<a href="../contacto/contacto.html">
+				<li style="background-color: #FF382E; 
+				border: #FF382E 2px solid;color: #ffffff;">
+					Contacto
+				</li>
+			</a>
+
+			<input type="search">
+
+			<button>
+				<img src="../assets/lupa.png">
+			</button>
+			
+		</ul>
+
+	</nav>
+
+
+	<!---------- AQUÍ VA EL CONTENIDO ---------->
+	
+	<a href="#cabecera_general">
+		<img src="../assets/arriba.png" class="rrss" id="sube">
+	</a>
+
+	<section id="contacto">
+		
+		<article>
+
+			<h1>
+				CONTACTA CONMIGO
+			</h1>
+			
+			<aside>
+				
+				<h2>
+					EMAIL Y TELÉFONO
+				</h2>
+
+				<ul>
+
+					<a href="mailto:tomassegovia97@gmail.com">
+						<li id="contacto_email" style="font-size: 16px;">
+							tomassegovia97@gmail.com
+						</li>
+					</a>
+					<br>	
+					<a href="tel:+34682211873">
+						<li id="contacto_telf">
+							682 211 873
+							<img src="../assets/call.png">
+						</li>
+					</a>
+			
+				</ul>
+				<br>
+
+				<h2>
+					REDES SOCIALES
+				</h2>
+
+				<ul>
+
+					<a href="https://www.instagram.com/tommys.muertos">
+						<li id="contacto_ig">
+							INSTAGRAM
+							<img src="../assets/ig.png">
+						</li>
+					</a>
+					<br>
+					<a href="https://www.facebook.com/liphesux">
+						<li id="contacto_fb">
+							FACEBOOK
+							<img src="../assets/fb.png">
+						</li>
+					</a>
+					<br>
+					<a href="https://twitter.com/angustiamental">
+						<li id="contacto_tw">
+							TWITTER
+							<img src="../assets/tw.png">
+						</li>
+					</a>
+
+				</ul>
+
+			</aside>
+			
+			<form>
+				
+				<label for="form_contacto_nombre">
+					<input type="text" class="form_contacto" id="form_contacto_nombre" 
+					placeholder="NOMBRE *" required>
+				</label>
+
+				<label for="form_contacto_ap">
+					<input type="text" class="form_contacto" id="form_contacto_ap" 
+					placeholder="APELLIDOS *" required>
+				</label>
+				
+				<br>
+				
+				<label for="form_contacto_email">
+					<input type="text" class="form_contacto" id="form_contacto_email" 
+					placeholder="EMAIL *" required>
+				</label>
+
+				<label for="form_contacto_telf">
+					<input type="text" class="form_contacto" id="form_contacto_telf" 
+					placeholder="TELÉFONO *" required>
+				</label>
+				
+				<br>
+				
+				<label for="form_contacto_consulta">
+					<textarea placeholder="CONSULTA *" id="form_contacto_consulta" required></textarea>
+				</label>
+
+				<ul>
+
+					<li style="text-align: left; font-family: 'Raleway'; font-size: 16px;">
+						<label for="form_contacto_acepto">
+							<input type="checkbox" id="form_contacto_acepto" required>
+							He leído y acepto las condiciones de uso y políticas de privacidad*
+						</label>
+					</li>
+
+					<li style="text-align: left; font-family: 'Raleway'; font-size: 16px;">
+						<label for="form_contacto_acepto">
+							<input type="checkbox" id="form_contacto_info">
+							Deseo recibir información sobre noticias de este sitio web*
+						</label>
+					</li>
+
+				</ul>
+
+				<br>
+
+				<label for="envialo">
+					<input type="submit" id="envialo" value="ENVIAR CONSULTA">
+				</label>
+
+				<br>
+				
+			</form>
+
+		</article>
+		
+	</section>
+
+	<!---------- PIÉ DE PÁGINA ---------->
+	
+
+	<footer>
+		
+		<img src="../assets/somerights20.png">
+		<p>
+			Copyright © 2020 - 2021 
+			<strong>Tomás Segovia Montesinos</strong>
+		</p>
+			
+	</footer>
+
+</body>
+
+</html>
